@@ -24,7 +24,7 @@ class LRUCache:
 
         # handle a single node in the linked-list
         if node.prev == None and node.next == None:
-            return node
+            return
 
         # handle a head node in the linked-list
         if node.prev == None and node.next != None:
