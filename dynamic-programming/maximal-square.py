@@ -15,8 +15,8 @@ def maximalSquare(matrix):
             dp[n * i + j] = 1
 
             if i > 0 and j > 0:
-                top, bottom, diagonal = dp[n * (i - 1) + j], dp[n * i + j - 1], dp[n * (i - 1) + j - 1]
-                dp[n * i + j] += min(top, bottom, diagonal)
+                top, left, diagonal = dp[n * (i - 1) + j], dp[n * i + j - 1], dp[n * (i - 1) + j - 1]
+                dp[n * i + j] += min(top, left, diagonal)
 
             # answer = max square length
             answer = max(answer, dp[n * i + j])
