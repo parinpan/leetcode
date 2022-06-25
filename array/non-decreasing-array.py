@@ -12,9 +12,9 @@ def checkPossibility(nums):
             
         if l == 0 or r == nums_len - 1:
             pass
-        elif l > 0 and nums[l - 1] <= nums[r]:
+        elif nums[l - 1] <= nums[r]:
             nums[l] = nums[l - 1]
-        elif r + 1 < nums_len and nums[l] <= nums[r + 1]:
+        elif nums[l] <= nums[r + 1]:
             nums[r] = nums[l]
         else:
             counter = 100 # considered as max number
