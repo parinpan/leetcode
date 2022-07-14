@@ -34,7 +34,6 @@ class LRUCache:
             return
         
         node = LinkedList(key, value)
-        node.value = value
         temp_next = self.head.next
         
         self.head.next = node
