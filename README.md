@@ -4,4 +4,8 @@ Only me particing some Leetcode problems :)
 
 # References
 - [Graph Algorithms for Technical Interviews - Full Course, freeCodeCamp.org](https://www.youtube.com/watch?v=tWVWeAqZ0WU) 
-- [labuladong.gitbook.io/algo-en](https://labuladong.gitbook.io/algo-en)
+- [Algorithm by Labuladong](https://labuladong.gitbook.io/algo-en)
+- [Coding Interview University](https://github.com/jwasham/coding-interview-university)
+- [Bitwise - Divide Two Integer](https://leetcode.com/problems/divide-two-integers/discuss/1516367/Complete-Thinking-Process-or-Intuitive-Explanation-or-All-rules-followed-or-C%2B%2B-code)
+- [Do's & Dont's for your next Coding Interview (My Google/Amazon Experience)](https://leetcode.com/discuss/general-discussion/2339080/dos-donts-for-your-next-coding-interview-my-googleamazon-experience)
+- [System Design template that landed me to Google](https://leetcode.com/discuss/general-discussion/2340482/system-design-template-that-landed-me-to-google)
