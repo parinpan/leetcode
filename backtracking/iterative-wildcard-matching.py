@@ -1,4 +1,4 @@
-	def wildcard_matching(s, p):
+def wildcard_matching(s, p):
 	s_i, p_i = 0, 0
 	last_s_i, last_p_i = -1, -1
 
