@@ -24,4 +24,3 @@ def wildcard_matching(s, p):
 		p_i += 1
 
 	return s_i == len(s) and p_i == len(p)
-
